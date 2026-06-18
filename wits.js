@@ -4,7 +4,7 @@
  * Open: http://localhost:8999 (default)
  */
 
-const VERSION = '0.1.13'
+const VERSION = '0.9'
 let PORT = 8999;
 const _CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 const RANDOM_PASS = Array.from({ length: 25 }, () => _CHARS[Math.floor(Math.random() * _CHARS.length)]).join('');
