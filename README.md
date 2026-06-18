@@ -92,7 +92,7 @@ Flags can be combined freely:
 
 ```bash
 bun wits.js -p 9001 -pass mysecret
-bun wits.js -p 9001 -np s
+bun wits.js -p 9001 -np
 ```
 
 ---
